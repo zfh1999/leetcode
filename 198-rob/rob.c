@@ -3,6 +3,7 @@ f(i) == max{f(i-1), f(i-2)+nums[i]}
 */
 
 #include <string.h>
+
 int rob(int *nums, int numsSize)
 {
     if (numsSize == 1)
